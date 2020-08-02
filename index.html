@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/application.js"></script>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+  </head>
+  <body>
+    <section class="container">
+      <div class="row">
+        <div class="cart-name col-xs-12">
+          <h1>Carrito de compras</h1>
+        </div>
+      </div>
+    </section>
+    <section id="#product-list" class="container">
+      <div class="row product">
+        <div class="product-name col-xs-3">
+          Atún
+        </div>
+        <div class="product-price col-xs-3">
+          $120.00
+        </div>
+        <div class="product-quantity col-xs-3">
+          <label>Cantidad</label>
+          <input class="quantity" type="number" />
+        </div>
+        <div class="col-xs-1">
+          <button class="remove">Remover</button>
+        </div>
+        <div class="product-subtotal col-xs-2">
+          $--.--
+        </div>
+      </div>
+      <div class="row product">
+        <div class="product-name col-xs-3">
+          Carne de res
+        </div>
+        <div class="product-price col-xs-3">
+          $100.00
+        </div>
+        <div class="product-quantity col-xs-3">
+          <label>Cantidad</label>
+          <input class="quantity" type="number" />
+        </div>
+        <div class="col-xs-1">
+          <button class="remove">Remover</button>
+        </div>
+        <div class="product-subtotal col-xs-2">
+          $--.--
+        </div>
+      </div>
+      <div class="row product">
+        <div class="product-name col-xs-3">
+          Pollo
+        </div>
+        <div class="product-price col-xs-3">
+          $80.00
+        </div>
+        <div class="product-quantity col-xs-3">
+          <label>Cantidad</label>
+          <input class="quantity" type="number" />
+        </div>
+        <div class="col-xs-1">
+          <button class="remove">Remover</button>
+        </div>
+        <div class="product-subtotal col-xs-2">
+          $--.--
+        </div>
+      </div>
+      <div class="row product">
+        <div class="product-name col-xs-3">
+          Carne de puerco
+        </div>
+        <div class="product-price col-xs-3">
+          $60.00
+        </div>
+        <div class="product-quantity col-xs-3">
+          <label>Cantidad</label>
+          <input class="quantity" type="number" />
+        </div>
+        <div class="col-xs-1">
+          <button class="remove">Remover</button>
+        </div>
+        <div class="product-subtotal col-xs-2">
+          $--.--
+        </div>
+      </div>
+      <div class="row product">
+        <div class="product-name col-xs-3">
+          Huevos
+        </div>
+        <div class="product-price col-xs-3">
+          $40.00
+        </div>
+        <div class="product-quantity col-xs-3">
+          <label>Cantidad</label>
+          <input class="quantity" type="number" />
+        </div>
+        <div class="col-xs-1">
+          <button class="remove">Remover</button>
+        </div>
+        <div class="product-subtotal col-xs-2">
+          $--.--
+        </div>
+      </div>
+      <div class="row product">
+        <div class="product-name col-xs-3">
+          Yogurth
+        </div>
+        <div class="product-price col-xs-3">
+          $30.00
+        </div>
+        <div class="product-quantity col-xs-3">
+          <label>Cantidad</label>
+          <input class="quantity" type="number" />
+        </div>
+        <div class="col-xs-1">
+          <button class="remove">Remover</button>
+        </div>
+        <div class="product-subtotal col-xs-2">
+          $--.--
+        </div>
+      </div>
+      <div class="row product">
+        <div class="product-name col-xs-3">
+          Leche
+        </div>
+        <div class="product-price col-xs-3">
+          $30.00
+        </div>
+        <div class="product-quantity col-xs-3">
+          <label>Cantidad</label>
+          <input class="quantity" type="number" />
+        </div>
+        <div class="col-xs-1">
+          <button class="remove">Remover</button>
+        </div>
+        <div class="product-subtotal col-xs-2">
+          $--.--
+        </div>
+      </div>
+      <div class="row product">
+        <div class="product-name col-xs-3">
+          Jamón
+        </div>
+        <div class="product-price col-xs-3">
+          $50.00
+        </div>
+        <div class="product-quantity col-xs-3">
+          <label>Cantidad</label>
+          <input class="quantity" type="number" />
+        </div>
+        <div class="col-xs-1">
+          <button class="remove">Remover</button>
+        </div>
+        <div class="product-subtotal col-xs-2">
+          $--.--
+        </div>
+      </div>
+      <div class="row product">
+        <div class="product-name col-xs-3">
+          Pan
+        </div>
+        <div class="product-price col-xs-3">
+          $130.00
+        </div>
+        <div class="product-quantity col-xs-3">
+          <label>Cantidad</label>
+          <input class="quantity" type="number" />
+        </div>
+        <div class="col-xs-1">
+          <button class="remove">Remover</button>
+        </div>
+        <div class="product-subtotal col-xs-2">
+          $--.--
+        </div>
+      </div>
+      <div class="row product new">
+        <div class="col-xs-3">
+          <input placeholder="Producto" id="name"/>
+        </div>
+        <div class="col-xs-3">
+          <input placeholder="$$$" id="cost"/>
+        </div>
+        <div id="col-xs-1">
+          <button id="addProduct">
+            Añadir
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <h1 class="total-price-label">
+            Total a pagar:
+          </h1>
+          <div id="total-price">
+            $--.--
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
