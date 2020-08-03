@@ -16,7 +16,7 @@ var updateTotal = function () {
     allSubtotals.push(productSubtotal);
   });  
   var cartTotal = allSubtotals.reduce(sum);
-  //console.log(cartTotal);
+
   $('#total-price').html('$' + cartTotal);
 
 };
@@ -77,5 +77,3 @@ $(document).ready(function () {
   });
 
 });
-
-// console.log(cartTotal);

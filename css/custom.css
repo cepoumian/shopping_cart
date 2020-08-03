@@ -1,0 +1,11 @@
+.product {
+  margin: 5px 0 5px;
+}
+
+label + input {
+  margin-left: 5px;
+}
+
+#total-price {
+  font-size: large;
+}
