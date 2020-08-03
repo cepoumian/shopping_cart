@@ -22,7 +22,7 @@
         </div>
       </div>
     </section>
-    <section id="#product-list" class="container">
+    <section id="product-list" class="container">
       <div class="row product">
         <div class="product-name col-xs-3">
           Atún
@@ -32,7 +32,7 @@
         </div>
         <div class="product-quantity col-xs-3">
           <label>Cantidad</label>
-          <input class="quantity" type="number" />
+          <input class="quantity" type="number" value="0"/>
         </div>
         <div class="col-xs-1">
           <button class="remove">Remover</button>
@@ -50,7 +50,7 @@
         </div>
         <div class="product-quantity col-xs-3">
           <label>Cantidad</label>
-          <input class="quantity" type="number" />
+          <input class="quantity" type="number" value="0"/>
         </div>
         <div class="col-xs-1">
           <button class="remove">Remover</button>
@@ -68,7 +68,7 @@
         </div>
         <div class="product-quantity col-xs-3">
           <label>Cantidad</label>
-          <input class="quantity" type="number" />
+          <input class="quantity" type="number" value="0"/>
         </div>
         <div class="col-xs-1">
           <button class="remove">Remover</button>
@@ -86,7 +86,7 @@
         </div>
         <div class="product-quantity col-xs-3">
           <label>Cantidad</label>
-          <input class="quantity" type="number" />
+          <input class="quantity" type="number" value="0"/>
         </div>
         <div class="col-xs-1">
           <button class="remove">Remover</button>
@@ -104,7 +104,7 @@
         </div>
         <div class="product-quantity col-xs-3">
           <label>Cantidad</label>
-          <input class="quantity" type="number" />
+          <input class="quantity" type="number" value="0"/>
         </div>
         <div class="col-xs-1">
           <button class="remove">Remover</button>
@@ -118,11 +118,11 @@
           Yogurth
         </div>
         <div class="product-price col-xs-3">
-          $30.00
+          $35.00
         </div>
         <div class="product-quantity col-xs-3">
           <label>Cantidad</label>
-          <input class="quantity" type="number" />
+          <input class="quantity" type="number" value="0"/>
         </div>
         <div class="col-xs-1">
           <button class="remove">Remover</button>
@@ -140,7 +140,7 @@
         </div>
         <div class="product-quantity col-xs-3">
           <label>Cantidad</label>
-          <input class="quantity" type="number" />
+          <input class="quantity" type="number" value="0"/>
         </div>
         <div class="col-xs-1">
           <button class="remove">Remover</button>
@@ -158,7 +158,7 @@
         </div>
         <div class="product-quantity col-xs-3">
           <label>Cantidad</label>
-          <input class="quantity" type="number" />
+          <input class="quantity" type="number" value="0"/>
         </div>
         <div class="col-xs-1">
           <button class="remove">Remover</button>
@@ -176,7 +176,7 @@
         </div>
         <div class="product-quantity col-xs-3">
           <label>Cantidad</label>
-          <input class="quantity" type="number" />
+          <input class="quantity" type="number" value="0"/>
         </div>
         <div class="col-xs-1">
           <button class="remove">Remover</button>
@@ -185,7 +185,13 @@
           $--.--
         </div>
       </div>
-      <div class="row product new">
+    </section>
+      <form class="col-xs-12 my-2" id="addProduct">
+        <input class="mx-2" name="name" type="text" placeholder="Producto" required>
+        <input class="mx-2" name="price" type="number" step="0.01" value="0.00" placeholder="0.00">
+        <button class="btn btn-primary btn-sm">Añadir</button>
+      </form>
+      <!-- <div class="row product-new">
         <div class="col-xs-3">
           <input placeholder="Producto" id="name"/>
         </div>
@@ -197,7 +203,7 @@
             Añadir
           </button>
         </div>
-      </div>
+      </div> -->
       <div class="row">
         <div class="col-xs-12">
           <h1 class="total-price-label">
@@ -208,6 +214,6 @@
           </div>
         </div>
       </div>
-    </section>
+    <!-- </section> -->
   </body>
 </html>
