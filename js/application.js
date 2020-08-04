@@ -58,7 +58,7 @@ $(document).ready(function () {
         '<div class="product-price col-xs-3">' + '$' + price +
         '</div>' +
         '<div class="product-quantity col-xs-3">' +
-          '<label>Cantidad</label >' +
+          '<label>Cantidad</label>' +
           '<input class="quantity" type="number" value="0"/>' +
         '</div>' +
         '<div class="col-xs-1">' +

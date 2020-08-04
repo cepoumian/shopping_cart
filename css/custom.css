@@ -2,8 +2,8 @@
   margin: 5px 0 5px;
 }
 
-label + input {
-  margin-left: 5px;
+input.quantity {
+  margin-left: 15px;
 }
 
 #total-price {
